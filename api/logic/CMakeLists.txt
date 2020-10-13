@@ -309,6 +309,8 @@ set(MINECRAFT_SOURCES
 
     mojang/PackageManifest.h
     mojang/PackageManifest.cpp
+    mojang/PackageInstallTask.h
+    mojang/PackageInstallTask.cpp
     )
 
 add_unit_test(GradleSpecifier
